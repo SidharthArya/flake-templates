@@ -23,8 +23,8 @@
         path = ./treefmt;
         description = "Basic flake with a treefmt integration";
       };
-      node-typescript = {
-        path = ./node-typescript;
+      pnpm-typescript = {
+        path = ./pnpm-typescript;
         description = "Toolchain for TypeScript frontend projects";
       };
       ocaml = {
