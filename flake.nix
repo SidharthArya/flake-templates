@@ -27,6 +27,22 @@
         path = ./pnpm-typescript;
         description = "Toolchain for TypeScript frontend projects";
       };
+      pnpm= {
+        path = ./pnpm;
+        description = "Toolchain for Nodejs pnpm";
+      };
+      python = {
+        path = ./python;
+        description = "Toolchain for Python";
+      };
+      py-micromamba = {
+        path = ./py-micromamba;
+        description = "Toolchain for Python";
+      };
+      conda = {
+        path = ./conda;
+        description = "Toolchain for Conda";
+      };
       ocaml = {
         path = ./ocaml;
         description = "A flake template for development with OPAM and Dune";
