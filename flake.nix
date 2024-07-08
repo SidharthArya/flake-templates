@@ -31,6 +31,10 @@
         path = ./pnpm;
         description = "Toolchain for Nodejs pnpm";
       };
+      go = {
+        path = ./go;
+        description = "Toolchain for Nodejs pnpm";
+      };
       python = {
         path = ./python;
         description = "Toolchain for Python";
