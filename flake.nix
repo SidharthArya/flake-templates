@@ -31,6 +31,10 @@
         path = ./pnpm;
         description = "Toolchain for Nodejs pnpm";
       };
+      flutter= {
+        path = ./flutter;
+        description = "Toolchain for flutter";
+      };
       cpp = {
         path = ./cpp;
         description = "Toolchain for C++";
